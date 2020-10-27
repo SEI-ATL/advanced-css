@@ -1,0 +1,58 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+/* 2 Add style here for new container */
+
+.container-2 {
+    height: 350px;
+    width: 300px;
+}
+
+.container-2:hover {
+    color: blue;
+    cursor: pointer;
+
+    
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+/* @media (max-width: 600px) {
+    .container {
+        background-color: red;
+    }
+
+    /* 3 Add new style here for new container */
+    /* img {
+        height: 200px;
+        width: 200px;
+    } */
+/* } */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .container {
+        height: 250px;
+        width: 250px;
+        background-color: yellowgreen;
+    }
+
+    img {
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+    }
+}
+
+.container:hover .description, .container:hover .hello {
+    border: 3px solid red;
+}
+/* .contact-dpd:hover .contact-content, .work-dpd:hover .work-content{
+   display:block
+} */
