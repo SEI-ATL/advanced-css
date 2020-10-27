@@ -1,0 +1,70 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container:hover {
+    text-align: center;
+    background-color: paleturquoise;
+    cursor: pointer;
+    border: 3px solid black;
+    /* border-radius; 5px; */
+}
+
+.newcontainer {
+    /* background-color: blueviolet; */
+    /* text-align: center;
+    font-family: sans-serif; */
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+/* separate parameters for a different screen size */
+/* @media (max-width: 600px) {
+    .container {
+        background-color:red;
+        height: 300px;
+        width: 300px;
+    }
+    .newcontainer {
+        text-align: right;
+        font-family: serif;
+    }
+/* make ALL images smaller for a smaller screen size 
+    img {
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+/* setting up more complex conditionals! */
+@media screen and (mid-width: 600px) and (max-width: 900px) {
+    .container {
+        height: 250px;
+        width: 250px;
+        background-color: blueviolet;
+    }
+
+    .container:hover {
+        text-align: center;
+        border-radius: 12px;
+        background-color: whitesmoke;
+    }
+    
+    .newcontainer:hover {
+        color: blue;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
