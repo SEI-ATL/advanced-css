@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Advanced CSS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced CSS</h1>
+    </div>
+    <div class="container-2">
+        <h2>GA CodeAlong</h2>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
+
+.container {
+    background-color: whitesmoke
+    height: 300px
+    width: 300px
+}
+
+.container-2 {
+    background-color: skyblue;
+    height: 400px;
+    width: 250px;
+}
+
+.container-2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container-2 {
+        background-color: tomato;
+        height: 400px;
+        width: 250px;
+    }
+}
+
+
+
+
+
+
